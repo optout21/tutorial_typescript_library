@@ -1,0 +1,20 @@
+{
+  "name": "cc-ts-lib-tutorial",
+  "version": "0.1.0",
+  "description": "A simple TypeScrtipt library example",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catenocrypt/tutorial_typescript_library.git"
+  },
+  "author": "catenocrypt",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/catenocrypt/tutorial_typescript_library/issues"
+  },
+  "homepage": "https://github.com/catenocrypt/tutorial_typescript_library#readme"
+}
