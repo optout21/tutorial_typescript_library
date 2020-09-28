@@ -1,5 +1,7 @@
 # tutorial_typescript_library
-A simple TypeScrtipt library example
+
+Example of a simple TypeScrtipt library, with 3rd party dependency, consumed from Javascript/Typescript.
+Usess CommonJS module format.
 
 # Compile and publish
 
@@ -10,6 +12,9 @@ npm publish
 
 # Usage
 
+See `client-ts` and `client-js`.
+
+
 Add dependency
 
 ```shell
@@ -19,8 +24,15 @@ npm install --save cc-ts-lib-tutorial
 use it like this:
 
 ```typescript
-import { sayHello } from 'cc-ts-lib-tutorial';
+import { sayHello, sayFibo } from 'cc-ts-lib-tutorial';
 sayHello();
+sayFibo();
+```
+
+```javascript
+const lib = require('cc-ts-lib-tutorial');
+lib.sayHello();
+lib.sayFibo();
 ```
 
 Created using

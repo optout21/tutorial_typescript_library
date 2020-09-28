@@ -1,6 +1,6 @@
 {
   "name": "cc-ts-lib-tutorial",
-  "version": "0.2.0",
+  "version": "1.0.4",
   "description": "A simple TypeScrtipt library example",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/catenocrypt/tutorial_typescript_library/issues"
   },
-  "homepage": "https://github.com/catenocrypt/tutorial_typescript_library#readme"
+  "homepage": "https://github.com/catenocrypt/tutorial_typescript_library#readme",
+  "dependencies": {
+    "fibonacci": "^1.6.7"
+  }
 }

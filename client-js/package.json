@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/catenocrypt/tutorial_typescript_library#readme",
   "dependencies": {
-    "cc-ts-lib-tutorial": "^0.2.0"
+    "cc-ts-lib-tutorial": "^1.0.4"
   }
 }

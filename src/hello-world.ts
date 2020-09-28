@@ -1,7 +1,7 @@
-export function sayHello() {
+export function sayHello(): void {
     console.log('hi')
 }
 
-export function sayGoodbye() {
+export function sayGoodbye(): void {
     console.log('goodbye')
 }
