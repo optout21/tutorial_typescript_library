@@ -1,3 +1,4 @@
 dist/*
 node_modules/*
 client-js/node_modules/*
+client-ts/node_modules/*
