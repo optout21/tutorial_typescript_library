@@ -1,10 +1,10 @@
 {
-  "name": "cc-ts-lib-tutorial",
-  "version": "0.2.0",
-  "description": "A simple TypeScrtipt library example",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "cc-ts-lib-tutorial-client",
+  "version": "1.0.0",
+  "description": "Sample client project for cc-ts-lib-tutorial",
+  "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/catenocrypt/tutorial_typescript_library/issues"
   },
-  "homepage": "https://github.com/catenocrypt/tutorial_typescript_library#readme"
+  "homepage": "https://github.com/catenocrypt/tutorial_typescript_library#readme",
+  "dependencies": {
+    "cc-ts-lib-tutorial": "^0.2.0"
+  }
 }
